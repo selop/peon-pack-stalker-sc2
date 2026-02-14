@@ -1,0 +1,78 @@
+{
+  "cesp_version": "1.0",
+  "name": "sc2-stalker",
+  "display_name": "Stalker (StarCraft II)",
+  "version": "1.0.0",
+  "description": "Protoss Stalker voice lines from StarCraft II",
+  "author": {
+    "name": "Sergej Lopatkin",
+    "github": "selop"
+  },
+  "license": "CC-BY-NC-4.0",
+  "language": "en",
+  "tags": ["gaming", "starcraft", "protoss", "blizzard"],
+  "categories": {
+    "session.start": {
+      "sounds": [
+        { "file": "sounds/dark-prelate.mp3", "label": "Dark prelate, we answer your call", "sha256": "46018fa3fc2a662600c09d130fd9ab14cb81f8c78ab95fd8ab481ae3bedb8daa" },
+        { "file": "sounds/i-am-here-in-the-shadows.mp3", "label": "I am here in the shadows", "sha256": "7011943e9a74aa29bf32dd13eee8b5e5840ffd4e361eea5a97f35aef72da1960" },
+        { "file": "sounds/you-require-my-skills.mp3", "label": "You require my skills?", "sha256": "1a9b94c8578a4face346761957af62d9d804f1e4cc39a56981d0245e00a697bd" },
+        { "file": "sounds/state-thy-bidding.mp3", "label": "State thy bidding", "sha256": "0e246717323ebcfa1d4c1e77a101d87639b3be5fd6958d5c419637bb23052867" }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        { "file": "sounds/i-obey.mp3", "label": "I obey", "sha256": "d9681689bb8550bdaa5d5e9b563174d22911aede74a1005ac74e9f3e51420e46" },
+        { "file": "sounds/very-well.mp3", "label": "Very well", "sha256": "d34146ea45962903c284ca2bc75834ced7f1371209aa0537c09cdc02a8f0a9cc" },
+        { "file": "sounds/it-shall-be-as-you-say.mp3", "label": "It shall be as you say", "sha256": "8f0971c235117b9e926192ad0120b1f31b7746a74bf50f2b4affc00f1e4163c6" },
+        { "file": "sounds/i-serve-for-now.mp3", "label": "I serve... for now.", "sha256": "02868382d6281b10b5eee67f4367f5a8f4655cfd737c65cb715a4fbc405a40c7" }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        { "file": "sounds/complete-the-cycle.mp3", "label": "Complete the cycle", "sha256": "6a7acf5fc96865a61735fcf90dc2ef383731668ade08cad692a36d5958a51c0c" },
+        { "file": "sounds/successful.mp3", "label": "Successful", "sha256": "0333d0ffa32eb201f7441d991e4e3d0a1d542637c0b36bbbffa77fdfd902d4a9" }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        { "file": "sounds/ouch.mp3", "label": "Ouch", "sha256": "ee6cc62bf0121796fb36d88d9ef4deb1c75b6d6b7d0211f1f559e056fc9ccc4e" },
+        { "file": "sounds/that-hurt.mp3", "label": "That hurt", "sha256": "7a49ebe565430a95c250fbadb5e38d7943cd8ced8ad4c06c478efcc6eaa84b05" }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        { "file": "sounds/the-void-hungers.mp3", "label": "The void hungers", "sha256": "389469f8dc14fb2ae78c4f496d34d96e34ba0c7c16ab561c7e06d88e112257d7" },
+        { "file": "sounds/you-never-return-my-calls.mp3", "label": "You never return my calls", "sha256": "0fa59e56a87c14f958df3af1213474ce8f8cdcd9d3ec4675834476787f33f5ba" },
+        { "file": "sounds/intriguing.mp3", "label": "Intriguing", "sha256": "545a8e55650f10ea0e22b377e954993adf75a9eda34003cbfb8d39059153b4d1" }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        { "file": "sounds/enemy-surrounds-us.mp3", "label": "The enemy surrounds us, proceed with caution", "sha256": "1923642114bed53e91cdec096e62a58bf1007e1d75a6e2c810880df354462419" },
+        { "file": "sounds/fall-back-to-the-shadows.mp3", "label": "Fall back to the shadows", "sha256": "7b633c92e5c1c59b9e9a1b01c56255f426c23fa8fb8c51fe6bbaba7789a08680" }
+      ]
+    },
+    "user.spam": {
+      "sounds": [
+        { "file": "sounds/you-look-better-in-the-dark.mp3", "label": "You look better in the dark", "sha256": "839ddfff4c49704de7edcb31bcae6ad0f9a97669ca9b88e3559969960ba0faac" },
+        { "file": "sounds/dont-blink.mp3", "label": "Don't blink or you'll miss me", "sha256": "6f5dbf9971626251ffb5684126af9adb9de0a38daaa2556a507549e8cc21db42" }
+      ]
+    },
+    "session.end": {
+      "sounds": [
+        { "file": "sounds/forever-sleep.mp3", "label": "Forever sleep", "sha256": "9a7e5e31765636deba498804e61540076d299e582df37a4978a4ce9f1eca65a2" },
+        { "file": "sounds/now-you-see-me.mp3", "label": "Now you see me now you don't. Oh wait...", "sha256": "bb45b0ccb107a4bd88aaf60dad3d8a9a964bb80c8b4c75a5c450a77261c151b4" }
+      ]
+    }
+  },
+  "category_aliases": {
+    "greeting": "session.start",
+    "acknowledge": "task.acknowledge",
+    "complete": "task.complete",
+    "error": "task.error",
+    "permission": "input.required",
+    "resource_limit": "resource.limit",
+    "annoyed": "user.spam"
+  }
+}
